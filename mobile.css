@@ -1,0 +1,27 @@
+@media only screen and (max-width:1199px) {
+  .block {
+    width: 80%;
+    margin: 2em auto;
+  }
+  .social {
+    margin: 1em 0;
+  }
+}
+
+@media screen and (max-width:1199px) and (orientation: landscape) {
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width:1199px) and (orientation: portrait) {
+  h1 {
+    font-size: 5vh;
+  }
+  h2 {
+    font-size: 3.5vh;
+  }
+}

@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800i,900|Cormorant+Garamond:400i,500,500i,600,600i,700,700i|Oswald:200,300,400,500,600,700,800i,900);
+html, body {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  background: #949494;
+
+  display: table;
+  height: 100%;
+  width: 100%;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+    position: relative;
+}
+a:hover {
+  color: #fff;
+  border: 0;
+}
+/* Fade effect */
+.js body {
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+
+.js body.render {
+  opacity: 1;
+}
+/*a {
+  position: relative;
+  padding: 2px 4px;
+  z-index: 0;
+}
+a:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background: #aaa;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  z-index: -1;
+}
+a:hover:after {
+  width: 100%;
+}*/
+
+
+
+.wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block {
+  width: 990px;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+.block {
+  font-size: 1em;
+}
+
+.caption {
+  margin-right: 1em;
+}
+
+h1 {
+  font: 700 350%/1 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 0.25em 0;
+}
+
+h1.logo a{
+  text-decoration: none;
+  border: 0;
+}
+
+h2 {
+  font: italic 200%/1.3 'Cormorant Garamond', serif;
+  color: #fff;
+  margin: 0 0 .5em 0;
+}
+
+.caption ul {
+  font-size: 110%;
+  line-height: 1.5;
+}
+.caption ul li {
+  position: relative;
+  margin-bottom: 1em;
+}
+.caption ul li a span.fa{
+  position: absolute;
+  left: -20px;
+  top: 5px;
+}
+
+.location {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 140%;
+  margin: 3em 0;
+}
+li span.fa {
+  margin-right: .5em;
+  font-size: 100%;
+}
+
+.links {
+  margin: 2em 0;
+  font-size: 120%;
+}
+.caption ul.links li {
+  float: left;
+  position: relative;
+  padding-left: 1.25em;
+  margin-right: 1.25em;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+.caption ul.links a span.fa {
+  top: 3px;
+}
+
+.social {
+  padding: 0;
+  list-style: none;
+  margin: 4em 0;
+  clear: both;
+}
+.social li {
+  display: inline-block;
+}
+.social a {
+  display: inline-block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 48px;
+  background: #000;
+  position: relative;
+}
+
+.social a {
+  color: #fff;
+  background: transparent;
+  border: 0;
+}
+.social a:hover {
+  -moz-box-shadow: 0 48px 0 inset;
+  -webkit-box-shadow: 0 48px 0 inset;
+  box-shadow: 0 48px 0 inset;
+}
+.social a:hover > .fa {
+  color: #fff;
+}
+.social .twitter:hover {
+  color: #00ACED;
+}
+.social .facebook:hover {
+  color: #3B579D;
+}
+.social .linkedin:hover {
+  color: #007BB6;
+}
+.social .pinterest:hover {
+  color: #CB2026;
+}
